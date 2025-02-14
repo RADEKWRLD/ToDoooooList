@@ -240,6 +240,7 @@ input[type="checkbox"] {
   appearance: none;
   cursor: pointer;
   transition: all 0.2s ease;
+  word-wrap: break-word;
 }
 
 input[type="checkbox"]:checked {
