@@ -1,6 +1,7 @@
 # ToDooooo 项目😸
 
 这是一个简单的待办事项应用程序，使用 Vue 3 构建。用户可以添加、编辑、删除和过滤待办事项,供入门新手练手
+项目预览：https://to-dooooo-list.vercel.app/
 
 ## 功能👻
 
