@@ -292,4 +292,59 @@ input[type="text"][v-if] {
 input[type="text"][v-if]:focus {
   box-shadow: none;
 }
+
+/*响应式设计*/
+   
+@media (max-width: 600px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  svg{
+    width: 30px;
+    height: 30px;
+  }
+
+  .textbox {
+    flex-direction: row;
+    gap: 0.5rem;
+  }
+
+  .textbox input[type="text"] {
+    height: 100%;
+    font-size: 1rem;
+  }
+
+  button {
+ 
+    font-size: 1rem;
+  }
+
+  .listcontent {
+    padding: 0.5rem;
+    margin: 1rem auto;
+  }
+
+  li {
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.8rem;
+  }
+
+  .button-group {
+    width: 100%;
+    justify-content: flex-end;
+  }
+
+  .sorttodo {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .sorttodo button {
+    margin: 0;
+    padding: 0.5rem 1rem;
+  }
+}
 </style>
